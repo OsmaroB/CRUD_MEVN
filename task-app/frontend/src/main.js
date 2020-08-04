@@ -12,20 +12,20 @@ Vue.use(VueAxios, axios);
 //Importamos loc Componentes VUe
 import App from './App'
 import Create from './components/Create.vue';
-import DisplayTask from './components/DisplayTask.vue';
-import EditTask from './components/EditTask.vue';
+import DisplayItem from './components/DisplayItem.vue';
+import EditItem from './components/EditItem.vue';
 
 //Configuramos los links de router
 const routes = [
   {
-    name: 'DisplayTask',
+    name: 'DisplayItem',
     path: '/',
-    component: DisplayTask
+    component: DisplayItem
   },
   {
-    name: 'EditTask',
+    name: 'EditItem',
     path: '/edit/:id',
-    component: EditTask
+    component: EditItem
   },{
     name: 'Create',
     path: '/create/item',

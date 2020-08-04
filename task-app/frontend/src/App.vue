@@ -10,7 +10,7 @@
       <div class="collapse navbar-collapse" id="navbarNav">
         <ul class="navbar-nav">
           <li class="nav-item active">
-            <router-link :to="{ name: 'CreateItem' }" class="nav-link">
+            <router-link :to="{ name: 'Create' }" class="nav-link">
               Create
             </router-link>
           </li>

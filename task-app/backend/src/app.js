@@ -12,7 +12,7 @@ app.use(express.json());
 
 //routes
 //Aca se juntaran todas las rutas
-app.use('/api/notes', require('./routes/notes'));
+app.use('/api/items', require('./routes/items'));
 
 //Aca solamente definimos el servidor
 module.exports = app;
